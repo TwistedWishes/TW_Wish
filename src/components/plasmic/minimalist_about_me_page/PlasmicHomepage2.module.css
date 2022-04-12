@@ -172,6 +172,7 @@
   max-width: 100%;
   width: 200px;
   margin-right: 50px;
+  margin-left: 100px;
   flex-shrink: 0;
 }
 .img__ivlEn > picture > img {
@@ -315,6 +316,7 @@
   object-fit: cover;
   max-width: 100%;
   width: 200px;
+  margin-left: 50px;
   flex-shrink: 0;
 }
 .img__zhvEp > picture > img {
@@ -407,7 +409,7 @@
   object-fit: cover;
   max-width: 100%;
   width: 200px;
-  margin-right: 50px;
+  margin-right: 100px;
   flex-shrink: 0;
 }
 .img__jwPvR > picture > img {
