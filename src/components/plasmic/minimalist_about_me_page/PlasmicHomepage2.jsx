@@ -575,7 +575,7 @@ function PlasmicHomepage2__RenderFunc(props) {
             data-plasmic-override={overrides.embedHtml}
             className={classNames("__wab_instance", sty.embedHtml)}
             code={
-              "<form action=”mailto:finnickmaster@gmail.com”\r\n\r\n\r\nmethod=”POST”\r\n\r\n\r\nenctype=”multipart/form-data”\r\n\r\n\r\nname=”FORM”>\r\n\r\n\r\nPLEASE-INPUT-ADDRESS:<br>\r\n\r\n\r\n<input type=”text” size=”19″ name=”ContactEmail”><br><br>\r\n\r\n\r\nPLEASE-INPUT-BET-PNUMBER:<br> <textarea name=”ContactBet-PNumber” rows=”6″ cols=”20″>\r\n\r\n\r\n</textarea><br><br> <input type=”submit” value=”Submit”> </form>\r\n\r\n"
+              '<php\r\n\r\n\r\nif($_POST["message"]) {\r\n\r\n\r\nmail("your@email.address", "Here is the subject line",\r\n\r\n\r\n$_POST["insert your message here"]. "From: an@email.address");\r\n\r\n\r\n}\r\n\r\n\r\n>\r\n\r\n<input type=”text” size=”19″ name=”ENTER ADDRESS AND BET PNUMBER”><br><br>\r\n\r\n<form method="post" action="subscriberform.php">\r\n\r\n\r\n<textarea name="message"></textarea>\r\n\r\n\r\n<input type="submit">\r\n\r\n\r\n</form>\r\n\r\n'
             }
           />
 
