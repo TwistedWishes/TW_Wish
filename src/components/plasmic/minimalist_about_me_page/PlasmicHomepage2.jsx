@@ -575,7 +575,7 @@ function PlasmicHomepage2__RenderFunc(props) {
             data-plasmic-override={overrides.embedHtml}
             className={classNames("__wab_instance", sty.embedHtml)}
             code={
-              '<php\r\n\r\n\r\nif($_POST["message"]) {\r\n\r\n\r\nmail("your@email.address", "Here is the subject line",\r\n\r\n\r\n$_POST["insert your message here"]. "From: an@email.address");\r\n\r\n\r\n}\r\n\r\n\r\n>\r\n\r\n<form method="post" action="subscriberform.php">\r\n\r\n\r\n<textarea name="message"></textarea>\r\n\r\n\r\n<input type="submit">\r\n\r\n\r\n</form>\r\n\r\n'
+              '<form \r\n  method="POST" \r\n  action="https://script.google.com/macros/s/AKfycbwV2NLv6ac6Yee9tE9YzZwIvHVlM8vuT5XUIQzsedUBDc_GzWR22dlvsVo1aSKPh5_VYA/exec"\r\n>\r\n  <input name="Email" type="email" placeholder="INPUT-EMAIL" required>\r\n  <input name="Name" type="text" placeholder="INPUT-BET-PNUMBER-AS-SEEN-ABOVE" required>\r\n  <button type="submit">SUBMIT</button>\r\n</form>'
             }
           />
 
